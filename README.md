@@ -51,6 +51,8 @@ Design a simple illustration in figma containing abstract UI elements related to
 
 ## What we expect from you
 
+There are a few aspects that are very important to us. We will look out for these ones especially:
+
 - You have good communication skills.
 - You can work independently and take ownership of your work.
 - You can search for solutions on the internet.
@@ -60,12 +62,12 @@ Design a simple illustration in figma containing abstract UI elements related to
 - You get the details right and can follow a brand style.
 - You know the basics of git: you can clone a repository, and create a pull request on GitHub with your changes.
 
-## What we don't expect
+## Scope of the tasks
 
-- A perfect codebase/responsiveness/accessibility.
-- Animations or complex interactions.
-- Dark mode and light mode (just pick one).
-- We value your time, please don't spend more than 4 hours on this assignment.
+- We will give you a maximum of 4 hours for this assignment.
+- We do not expect you to implement a perfect codebase including responsiveness or accessibility.
+- We also don't expect any animations or complex interactions.
+- You don't have to do both dark mode and light mode - please pick one.
 
 ## Uploading your assignment
 
