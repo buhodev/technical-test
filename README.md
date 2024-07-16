@@ -13,8 +13,8 @@ Make sure that you have the following software installed on your machine:
 
 Make sure that you are registered on the following platforms:
 
-- [GitHub](https://github.com) - where the assignment will be submitted
-- [Figma](https://www.figma.com) - where you will work on the design
+- [GitHub](https://github.com) - where the assignment will be submitted.
+- [Figma](https://www.figma.com) - where you will work on the design.
 
 ## Developing
 
