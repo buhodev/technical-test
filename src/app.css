@@ -67,6 +67,11 @@
 }
 @layer components {
 	.btn {
-	  @apply inline-flex items-center select-none font-bold justify-center text-secondary-700 rounded-lg bg-gradient-to-tl from-primary-300 to-secondary-300 text-base transition py-3.5 px-6 md:px-8 ease-in duration-200 hover:brightness-110 cursor-pointer;
+	  @apply inline-flex items-center select-none font-bold justify-center text-secondary-700 rounded-lg bg-gradient-to-tl from-primary-300 to-secondary-300 text-base transition py-2 px-5 ease-in duration-200 hover:brightness-110 cursor-pointer;
 	}
+}
+
+::selection {
+  color: var(--color-primary-700) !important;
+  background: #f29e9c;
 }
