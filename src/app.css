@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --theme-font-color-base: #383c40;
+    --theme-font-color-dark: #f7f9fa;
+    --theme-rounded-base: 8px;
+    --theme-rounded-container: 16px;
+    --theme-border-base: 1px;
+    --on-primary: #ffffff;
+    --on-secondary: #ffffff;
+    --on-tertiary: #ffffff;
+    --on-success: #000000;
+    --on-warning: #000000;
+    --on-error: #000000;
+    --on-surface: #ffffff;
+    --color-primary-50: #fdf1e9;
+    --color-primary-100: #ffedd5;
+    --color-primary-200: #facb9f;
+    --color-primary-300: #eca769;
+    --color-primary-400: #d48744;
+    --color-primary-500: #ad6015;
+    --color-primary-600: #824706;
+    --color-primary-700: #5b3102;
+    --color-primary-800: #402100;
+    --color-primary-900: #271804;
+    --color-secondary-50: #fef2f5;
+    --color-secondary-100: #ffe8e9;
+    --color-secondary-200: #fec3d1;
+    --color-secondary-300: #f59ab6;
+    --color-secondary-400: #e37894;
+    --color-secondary-500: #bd4d6a;
+    --color-secondary-600: #943246;
+    --color-secondary-700: #711929;
+    --color-secondary-800: #50131a;
+    --color-secondary-900: #310f11;
+    --color-surface-50: #fdfdfd;
+    --color-surface-100: #f7f9fa;
+    --color-surface-200: #e2e8f0;
+    --color-surface-300: #cbd5e1;
+    --color-surface-400: #5870ab;
+    --color-surface-500: #2e4585;
+    --color-surface-600: #293d75;
+    --color-surface-700: #223363;
+    --color-surface-800: #1a274b;
+    --color-surface-900: #121b34;
+}
+
 @layer base {
 	@font-face {
 		font-family: 'Mulish Variable';
@@ -18,5 +63,10 @@
 	html,
 	body {
 		height: 100%;
+	}
+}
+@layer components {
+	.btn {
+	  @apply inline-flex items-center select-none font-bold justify-center text-secondary-700 rounded-lg bg-gradient-to-tl from-primary-300 to-secondary-300 text-base transition py-3.5 px-6 md:px-8 ease-in duration-200 hover:brightness-110 cursor-pointer;
 	}
 }
